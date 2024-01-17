@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: rgb(162, 162, 174);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url("bg.png");
+  }
+
+  .allinone {
+    width: 600px;
+
+    /* background-color: red; */
+    /* position: absolute; */
+  }
+
+  .maincontainer {
+    display: flex;
+  }
+  div span i {
+    border-radius: 50%;
+  }
+
+  div ul li a {
+    text-decoration: none;
+  }
+  div ul li {
+    list-style: none;
+  }
+  div ul li a i {
+    padding: 10px;
+  }
+  div ul li a #icon1 {
+    color: rgb(68, 68, 228);
+  }
+  div ul li a #icon2 {
+    color: rgb(222, 44, 44);
+  }
+  div ul li a #icon3 {
+    color: rgb(93, 93, 215);
+  }
+  div ul li a #icon4 {
+    color: rgb(59, 8, 59);
+  }
+  div ul li a #icon5 {
+    color: yellow;
+  }
+  div ul li a #icon6 {
+    color: green;
+  }
+  .afteropen {
+    border: 2px solid gray;
+    border-radius: 21px;
+    box-shadow: 4px 3px 5px rgba(58, 47, 47, 0.1);
+    background: white;
+  }
+  .maincontainer div span #xicon {
+    display: none;
+  }
+  .maincontainer div span:hover {
+    background-color: rgb(189, 188, 188);
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .maincontainer div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .maincontainer {
+    padding: 10px;
+  }
+  .afteropen {
+    width: 200px;
+    height: auto;
+    margin: 10px 10px;
+    padding: 10px 5px;
+    position: relative;
+    z-index: 1000;
+  }
+  .afteropen ul li a {
+  }
+  .afteropen {
+    display: none;
+    position: absolute;
+    bottom: 40px;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .afteropen {
+    /* position: relative; */
+    z-index: 1000;
+  }
+  .maincontainer {
+    display: flex;
+  }
+  .maincontainer .textarea {
+    margin-left: 13px;
+  }
+  div div ul li a {
+    color: black;
+    font-family: sans-serif;
+  }
+  div div ul li {
+  }
+
+  .textarea {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: none;
+  }
+
+  input:focus {
+    outline: none;
+  }
